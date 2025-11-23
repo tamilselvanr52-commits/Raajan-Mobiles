@@ -632,23 +632,47 @@ textarea {
   }
 }
 
-/* MEDIA QUERIES – MOBILE VIEW */
+/* MOBILE HEADER PERFECT ALIGNMENT */
 @media (max-width: 767px) {
   .header-inner {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-  }
-  .logo {
-    order: 2;
-    flex-grow: 1;
-    text-align: center;
-  }
-  .logo-icon {
-    order: 3;
+    position: relative;
+    padding: 0.7rem 1rem;
   }
   .nav-toggle {
     order: 1;
+    flex: 0 0 auto;
+    z-index: 2;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .logo-text {
+    order: 2;
+    flex: 1 1 auto;
+    text-align: center;
+    width: 100%;
+    pointer-events: auto;
+  }
+  .logo-icon {
+    order: 3;
+    flex: 0 0 auto;
+    margin-left: auto;
+    pointer-events: auto;
   }
 }
+
+
 
 
 
