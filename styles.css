@@ -600,7 +600,20 @@ textarea {
   .header-inner {
     padding: 0.7rem 1.5rem;
   }
-
+/*Mobile logo text center, icon right */
+  @media (max-width: 767px) {
+.header-inner
+    { justify-content: space-between;
+    }
+.logo{
+  order:2;
+  flex-grow: 1;
+  text-align: center;
+}
+.logo-icon{
+  order: 1;
+}
+  }
   .nav-toggle {
     display: none;
   }
@@ -617,7 +630,7 @@ textarea {
     margin-right: auto;
   }
 
-  /* MOBILE CENTER ALIGN → DESKTOP LEFT ALIGN */
+    /* MOBILE CENTER ALIGN → DESKTOP LEFT ALIGN */
   .card,
   .product-card,
   .service-card,
@@ -630,3 +643,4 @@ textarea {
     display: none;
   }
 }
+
