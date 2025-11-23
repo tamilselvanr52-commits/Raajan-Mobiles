@@ -597,9 +597,7 @@ textarea {
   }
 
   /* HEADER LAYOUT – DESKTOP */
-  .header-inner {
-    padding: 0.7rem 1.5rem;
-  }
+ 
 /*Mobile logo text center, icon right */
   @media (max-width: 767px) {
 .header-inner
@@ -643,5 +641,6 @@ textarea {
     display: none;
   }
 }
+
 
 
