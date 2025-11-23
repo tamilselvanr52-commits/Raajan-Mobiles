@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Raajan Mobiles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SAME HEADER STRUCTURE -->
+  <header class="header">
+    <div class="header-inner container">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="logo">
+        <div class="logo-icon">R</div>
+        <div class="logo-text">
+          <span>Raajan Mobiles</span>
+          <span>Smartphones • Service • Accessories</span>
+        </div>
+      </div>
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919000000000?text=Hi%20Raajan%20Mobiles%2C%20I%20would%20like%20to%20know%20more%20about%20your%20store." target="_blank" aria-label="Chat on WhatsApp">
+      &#128172;
+    </a>
+  </div>
+
+  <main>
+    <section class="section section-alt">
+      <div class="container">
+        <h1 class="section-title">About Raajan Mobiles</h1>
+        <p class="section-subtitle">
+          Raajan Mobiles is built as a modern neighborhood tech hub where real‑time guidance, honest pricing 
+          and long‑term support come together.
+        </p>
+
+        <div class="about-columns">
+          <div class="about-box">
+            <div class="about-highlight">From simple sales counter to smart experience center</div>
+            <p>
+              Raajan Mobiles started with a clear idea – customers should not feel confused 
+              while buying or repairing a smartphone. 
+              Every visitor is welcomed with a structured explanation of models, pricing and practical usage, 
+              so the final decision is comfortable and transparent.
+            </p>
+            <p style="margin-top:0.7rem;">
+              Over time, the store has evolved into a complete experience center with live demo units, 
+              accessory walls, EMI options and a full‑fledged service desk. 
+              The focus is to create long‑term relationships, not just one‑time sales.
+            </p>
+          </div>
+          <div class="about-box">
+            <div class="about-highlight">Strong backend service team</div>
+            <p>
+              Behind the showroom, the dedicated service team handles display, battery, chip‑level and 
+              software level work using industry‑grade tools. 
+              Each job is recorded with a ticket ID and status updates, keeping customers informed at every step.
+            </p>
+            <p style="margin-top:0.7rem;">
+              The technicians follow ESD‑safe handling practices and use quality‑checked spares. 
+              The team regularly updates skills on new chipsets, 5G devices and security features 
+              to handle the latest smartphone platforms confidently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">What you can expect when you visit</h2>
+        <p class="section-subtitle">
+          Every process at Raajan Mobiles is designed to be simple, traceable and customer‑friendly, 
+          whether you are buying your first smartphone or upgrading after many years.
+        </p>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-title">Clear demo of features</div>
+            <p class="card-text">
+              Team members explain cameras, battery backup, storage, performance and warranty in plain language, 
+              matching each model to your daily usage pattern.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-title">Transparent repair workflow</div>
+            <p class="card-text">
+              Every device is checked in front of you, issue is noted in the job sheet, and you receive a time estimate 
+              before work begins.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-title">After‑sales support</div>
+            <p class="card-text">
+              Even after purchase or repair, the store assists with setup, backup, app installation and basic training 
+              for new users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>|
+      <a href="about.html">About</a>|
+      <a href="services.html">Services</a>|
+      <a href="products.html">Products</a>|
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>© <span id="year"></span> Raajan Mobiles. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

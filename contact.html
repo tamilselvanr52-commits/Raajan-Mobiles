@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Raajan Mobiles - Get in Touch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="logo">
+        <div class="logo-icon">R</div>
+        <div class="logo-text">
+          <span>Raajan Mobiles</span>
+          <span>Smartphones • Service • Accessories</span>
+        </div>
+      </div>
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919000000000?text=Hi%20Raajan%20Mobiles%2C%20I%20have%20a%20query." target="_blank" aria-label="Chat on WhatsApp">
+      &#128172;
+    </a>
+  </div>
+
+  <main>
+    <section class="section section-alt">
+      <div class="container contact-wrapper">
+        <h1 class="section-title">Contact Raajan Mobiles</h1>
+        <p class="section-subtitle">
+          Share your requirement and the team will respond with the best suggestions for your budget, usage and timeline.
+        </p>
+
+        <form action="#" method="post" onsubmit="validateContactForm(event)">
+          <div class="form-row">
+            <div>
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div>
+              <label for="phone">Mobile number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="email">Email ID (optional)</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div>
+              <label for="type">Enquiry type</label>
+              <select id="type" name="type">
+                <option value="purchase">New mobile purchase</option>
+                <option value="service">Mobile service / repair</option>
+                <option value="accessories">Accessories</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div style="width:100%;">
+              <label for="message">Message / model details</label>
+              <textarea id="message" name="message" placeholder="Share model name, issue or requirement"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit enquiry</button>
+          <p class="text-muted" style="margin-top:0.7rem;font-size:0.8rem;">
+            By submitting this form, you agree to be contacted by Raajan Mobiles for this specific enquiry.
+          </p>
+        </form>
+
+        <div class="card" style="margin-top:1.6rem;">
+          <div class="card-title">Store timings & contact</div>
+          <p class="card-text">
+            Timings: 10:00 AM to 9:00 PM, all days (including Sunday).<br>
+            Phone: +91 90000 00000<br>
+            Address: Raajan Mobiles, Main Road, Your City, Tamil Nadu.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>|
+      <a href="about.html">About</a>|
+      <a href="services.html">Services</a>|
+      <a href="products.html">Products</a>|
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>© <span id="year"></span> Raajan Mobiles. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

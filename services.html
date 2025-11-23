@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services | Raajan Mobiles - Mobile Service Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="logo">
+        <div class="logo-icon">R</div>
+        <div class="logo-text">
+          <span>Raajan Mobiles</span>
+          <span>Smartphones • Service • Accessories</span>
+        </div>
+      </div>
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/919000000000?text=Hi%20Raajan%20Mobiles%2C%20I%20need%20support%20for%20my%20mobile%20service." target="_blank" aria-label="Chat on WhatsApp">
+      &#128172;
+    </a>
+  </div>
+
+  <main>
+    <section class="section services-bg">
+      <div class="services-inner container">
+        <h1 class="section-title">Mobile service and repair solutions</h1>
+        <p class="section-subtitle">
+          The Raajan Mobiles service lab handles everything from cracked screens to deep chip‑level faults, 
+          with a focus on data care and quality parts.
+        </p>
+
+        <div class="service-grid">
+          <div class="service-card">
+            <img src="img/display-service.jpg" alt="Mobile display replacement" class="service-thumb">
+            <h3 class="card-title">Display & touch repairs</h3>
+            <p class="card-text">
+              Replacement of broken, flickering or unresponsive displays using compatible panels and proper 
+              frame fitting for a factory‑like finish.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="img/battery-service.jpg" alt="Mobile battery service" class="service-thumb">
+            <h3 class="card-title">Battery & charging issues</h3>
+            <p class="card-text">
+              Diagnosis of battery health, charging connector replacement and power‑related faults for 
+              better backup and safe charging.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="img/chip-level.jpg" alt="Chip-level mobile repair" class="service-thumb">
+            <h3 class="card-title">Chip‑level board repairs</h3>
+            <p class="card-text">
+              Board‑level work including IC replacement, network faults, no‑power conditions and liquid damage 
+              recovery using professional tools.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="img/software-repair.jpg" alt="Software flashing and OS repair" class="service-thumb">
+            <h3 class="card-title">Software & OS recovery</h3>
+            <p class="card-text">
+              Flashing official firmware, resolving boot loops, removing unwanted malware and optimizing 
+              performance without disturbing your personal data whenever possible.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem;" class="card">
+          <div class="card-title">Service process in three clear steps</div>
+          <p class="card-text">
+            1. Device check‑in and issue confirmation. 2. Transparent estimate with time and spare details. 
+            3. Final testing with bill and basic demo of the repaired function.
+          </p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:0.8rem;">Book your service slot</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>|
+      <a href="about.html">About</a>|
+      <a href="services.html">Services</a>|
+      <a href="products.html">Products</a>|
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>© <span id="year"></span> Raajan Mobiles. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
