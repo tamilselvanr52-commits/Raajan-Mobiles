@@ -632,6 +632,23 @@ textarea {
   }
 }
 
+/* MEDIA QUERIES – MOBILE VIEW */
+@media (max-width: 767px) {
+  .header-inner {
+    justify-content: space-between;
+  }
+  .logo {
+    order: 2;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .logo-icon {
+    order: 3;
+  }
+  .nav-toggle {
+    order: 1;
+  }
+}
 
 
 
