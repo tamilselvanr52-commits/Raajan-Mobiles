@@ -660,7 +660,7 @@ textarea {
   .logo-text {
     order: 2;
     flex: 1 1 auto;
-    text-align: center;
+    text-align: 100%;
     width: 100%;
     pointer-events: auto;
   }
@@ -671,6 +671,7 @@ textarea {
     pointer-events: auto;
   }
 }
+
 
 
 
