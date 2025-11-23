@@ -660,8 +660,8 @@ textarea {
   .logo-text {
     order: 2;
     flex: 1 1 auto;
-    text-align: 100%;
-    width: 100%;
+    text-align: center;
+    width: auto;
     pointer-events: auto;
   }
   .logo-icon {
@@ -671,6 +671,7 @@ textarea {
     pointer-events: auto;
   }
 }
+
 
 
 
