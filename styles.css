@@ -611,7 +611,7 @@ textarea {
   text-align: center;
 }
 .logo-icon{
-  order: 1;
+  order: 3;
 }
   }
   .nav-toggle {
@@ -643,4 +643,5 @@ textarea {
     display: none;
   }
 }
+
 
